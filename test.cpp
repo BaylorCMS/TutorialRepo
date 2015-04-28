@@ -20,6 +20,6 @@ int main()
 
     for(int i = 2; i < N; ++i)
     {
-        if(sieve[i]) std::cout << i << " :-)" << std::endl;
+        if(sieve[i]) std::cout << i << " :)" << std::endl;
     }
 }
