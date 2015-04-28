@@ -4,6 +4,10 @@ const int N = 100;
 
 int main()
 {
+
+    std::cout << "HELLO!!" << std::endl; //there is an error here
+    //blah
+    //hlioeruh;oire
     bool sieve[N];
     //for(bool& element : sieve) element = true;
     for(int i = 0; i < N; i++) sieve[i] = true;
