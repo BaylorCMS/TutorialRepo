@@ -5,7 +5,7 @@ const int N = 100;
 int main()
 {
 
-    std::cout << "HELLO!!" << std::endl;
+    std::cout << "HELLO!!" << std::endl; //there is an error here
 
     bool sieve[N];
     for(bool& element : sieve) element = true;
