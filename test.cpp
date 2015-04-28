@@ -5,7 +5,8 @@ const int N = 100;
 int main()
 {
     bool sieve[N];
-    for(bool& element : sieve) element = true;
+    //for(bool& element : sieve) element = true;
+    for(int i = 0; i < N; i++) sieve[i] = true;
     for(int i = 2; i*i< N; ++i)
     {
         if(sieve[i])
