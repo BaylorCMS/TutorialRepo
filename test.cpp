@@ -6,6 +6,7 @@ int main()
 {
 
     std::cout << "HELLO!!" << std::endl; //there is an error here
+    //blah
 
     bool sieve[N];
     for(bool& element : sieve) element = true;
