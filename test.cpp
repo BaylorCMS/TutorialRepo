@@ -1,5 +1,5 @@
 #include <iostream>
-hi
+hi hi
 const int N = 100;
 
 int main()
