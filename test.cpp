@@ -7,7 +7,7 @@ int main()
 
     std::cout << "HELLO!!" << std::endl; //there is an error here
     //blah
-
+    //hlioeruh;oire
     bool sieve[N];
     for(bool& element : sieve) element = true;
     for(int i = 2; i*i< N; ++i)
