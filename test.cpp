@@ -4,6 +4,10 @@ const int N = 100;
 
 int main()
 {
+  std::cout << "aaa" << std::endl;
+  std::cout << "bbb" << std::endl;
+  std::cout << "ccc" << std::endl;
+  /*
     bool sieve[N];
     //for(bool& element : sieve) element = true;
     for(int i = 0; i < N; i++) sieve[i] = true;
@@ -22,4 +26,5 @@ int main()
     {
         if(sieve[i]) std::cout << i << " :)" << std::endl;
     }
+  */
 }
